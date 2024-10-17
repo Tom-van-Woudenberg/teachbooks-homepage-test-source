@@ -1,0 +1,336 @@
+[2024-10-17 09:44:29] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-10-17 09:44:29] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, create_zip_archive, wrapup
+[2024-10-17 09:44:29] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-10-17 09:44:30] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-10-17 09:44:30] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-10-17 09:44:30] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-10-17 09:44:30] [class-ss-setup-task.php:33] Creating archive directory: C:\Users\tomvanwoudenbe\Local Sites\teachbooks-test\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1729158269\
+[2024-10-17 09:44:30] [class-ss-setup-task.php:72] Adding origin URL to queue: http://teachbooks-test.local/
+[2024-10-17 09:44:30] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-10-17 09:44:30] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 09:44:30] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 09:44:30] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-10-17 09:44:30] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/
+[2024-10-17 09:44:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-10-17 09:44:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:44:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dc7e7cd4f-BUX0p8.tmp
+[2024-10-17 09:44:30] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/?simply_static_page=54
+[2024-10-17 09:44:30] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/?simply_static_page=54
+[2024-10-17 09:44:35] [class-ss-url-fetcher.php:103] Filesize: 83261 bytes
+[2024-10-17 09:44:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-17 09:44:35] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-10-17 09:44:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6710dc7e7cd4f-BUX0p8.tmp to C:\Users\tomvanwoudenbe\Local Sites\teachbooks-test\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1729158269/index.html
+[2024-10-17 09:44:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 09:44:38] [class-ss-fetch-urls-task.php:159] Adding 20 URLs to the queue
+[2024-10-17 09:44:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 09:44:38] [class-ss-page.php:119] Checking Content Identical:e7f69e760877ab7aad448fdd56761c021a6a9c4e===. Value: FALSE
+[2024-10-17 09:44:38] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-10-17 09:44:38] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-17 09:44:38] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 09:44:38] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 09:44:38] [class-ss-fetch-urls-task.php:69] Total pages: 20; Pages remaining: 19
+[2024-10-17 09:44:38] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/sample-page/
+[2024-10-17 09:44:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 20
+[2024-10-17 09:44:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:44:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dc86d57ef-Z2RBph.tmp
+[2024-10-17 09:44:38] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/sample-page/?simply_static_page=55
+[2024-10-17 09:44:38] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/sample-page/?simply_static_page=55
+[2024-10-17 09:44:39] [class-ss-url-fetcher.php:103] Filesize: 63955 bytes
+[2024-10-17 09:44:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-17 09:44:39] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
+[2024-10-17 09:44:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6710dc86d57ef-Z2RBph.tmp to C:\Users\tomvanwoudenbe\Local Sites\teachbooks-test\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1729158269/sample-page/index.html
+[2024-10-17 09:44:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 09:44:40] [class-ss-fetch-urls-task.php:159] Adding 16 URLs to the queue
+[2024-10-17 09:44:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 09:44:40] [class-ss-page.php:119] Checking Content Identical:c8241ff4127b6a67b7d9f19515fb4073f394b707===. Value: FALSE
+[2024-10-17 09:44:40] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/hello-world/
+[2024-10-17 09:44:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 20
+[2024-10-17 09:44:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:44:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dc88aedbd-FLPKar.tmp
+[2024-10-17 09:44:40] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/hello-world/?simply_static_page=56
+[2024-10-17 09:44:40] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/hello-world/?simply_static_page=56
+[2024-10-17 09:45:10] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-10-17 09:45:10] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30011 milliseconds with 0 bytes received
+[2024-10-17 09:45:10] [class-ss-url-fetcher.php:107] object(WP_Error)#1001 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30011 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-10-17 09:45:10] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/author/admin/
+[2024-10-17 09:45:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 20
+[2024-10-17 09:45:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:45:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dca6c2033-XYipVA.tmp
+[2024-10-17 09:45:10] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/author/admin/?simply_static_page=57
+[2024-10-17 09:45:10] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/author/admin/?simply_static_page=57
+[2024-10-17 09:45:11] [class-ss-url-fetcher.php:103] Filesize: 63661 bytes
+[2024-10-17 09:45:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-17 09:45:11] [class-ss-url-fetcher.php:233] New filename for static page: /author/admin/index.html
+[2024-10-17 09:45:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6710dca6c2033-XYipVA.tmp to C:\Users\tomvanwoudenbe\Local Sites\teachbooks-test\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1729158269/author/admin/index.html
+[2024-10-17 09:45:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 09:45:12] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-10-17 09:45:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 09:45:13] [class-ss-page.php:119] Checking Content Identical:a968b75ebc737ebf11b3fdf48db235bef6299a26===. Value: FALSE
+[2024-10-17 09:45:13] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/category/uncategorized/
+[2024-10-17 09:45:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 20
+[2024-10-17 09:45:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:45:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dca95075d-wOnZB3.tmp
+[2024-10-17 09:45:13] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/category/uncategorized/?simply_static_page=58
+[2024-10-17 09:45:13] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/category/uncategorized/?simply_static_page=58
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30004 milliseconds with 0 bytes received
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:107] object(WP_Error)#833 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30004 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-10-17 09:45:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 20
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dcc75d717-Fh2p8n.tmp
+[2024-10-17 09:45:43] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=59
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=59
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6710dcc75d717-Fh2p8n.tmp to C:\Users\tomvanwoudenbe\Local Sites\teachbooks-test\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1729158269/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 09:45:43] [class-ss-page.php:119] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: FALSE
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-10-17 09:45:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 20
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dcc7702f7-DFHxBL.tmp
+[2024-10-17 09:45:43] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=60
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=60
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6710dcc7702f7-DFHxBL.tmp to C:\Users\tomvanwoudenbe\Local Sites\teachbooks-test\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1729158269/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 09:45:43] [class-ss-page.php:119] Checking Content Identical:5d2c6cd3d8d2c412281237628073e451257716e4===. Value: FALSE
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-10-17 09:45:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 20
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dcc7861c1-b4dCky.tmp
+[2024-10-17 09:45:43] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=61
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=61
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6710dcc7861c1-b4dCky.tmp to C:\Users\tomvanwoudenbe\Local Sites\teachbooks-test\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1729158269/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 09:45:43] [class-ss-page.php:119] Checking Content Identical:18a3284f7b5ec684211dc355fe2ae56b30639a9e===. Value: FALSE
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/wp-includes/blocks/navigation/view.min.js
+[2024-10-17 09:45:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 20
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dcc799346-vyvOyE.tmp
+[2024-10-17 09:45:43] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/wp-includes/blocks/navigation/view.min.js?simply_static_page=62
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/wp-includes/blocks/navigation/view.min.js?simply_static_page=62
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6710dcc799346-vyvOyE.tmp to C:\Users\tomvanwoudenbe\Local Sites\teachbooks-test\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1729158269/wp-includes/blocks/navigation/view.min.js
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 09:45:43] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/feed/
+[2024-10-17 09:45:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 20
+[2024-10-17 09:45:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dcc7a8d59-I7w8kR.tmp
+[2024-10-17 09:45:43] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/feed/?simply_static_page=63
+[2024-10-17 09:45:43] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/feed/?simply_static_page=63
+[2024-10-17 09:45:44] [class-ss-url-fetcher.php:103] Filesize: 1679 bytes
+[2024-10-17 09:45:44] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 09:45:44] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-10-17 09:45:44] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6710dcc7a8d59-I7w8kR.tmp to C:\Users\tomvanwoudenbe\Local Sites\teachbooks-test\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1729158269/feed/index.xml
+[2024-10-17 09:45:44] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 09:45:44] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-10-17 09:45:44] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 09:45:44] [class-ss-page.php:119] Checking Content Identical:4f1e1c6d136af93bd4ec066eff9e651c48c9030c===. Value: FALSE
+[2024-10-17 09:45:44] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/comments/feed/
+[2024-10-17 09:45:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 20
+[2024-10-17 09:45:44] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:45:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dcc85f889-X9Eq3j.tmp
+[2024-10-17 09:45:44] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/comments/feed/?simply_static_page=64
+[2024-10-17 09:45:44] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/comments/feed/?simply_static_page=64
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30016 milliseconds with 0 bytes received
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:107] object(WP_Error)#833 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30016 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/wp-includes/blocks/navigation/style.min.css
+[2024-10-17 09:46:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 20
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dce66cfa7-Nm7Epn.tmp
+[2024-10-17 09:46:14] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/wp-includes/blocks/navigation/style.min.css?simply_static_page=65
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/wp-includes/blocks/navigation/style.min.css?simply_static_page=65
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6710dce66cfa7-Nm7Epn.tmp to C:\Users\tomvanwoudenbe\Local Sites\teachbooks-test\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1729158269/wp-includes/blocks/navigation/style.min.css
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 09:46:14] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/wp-includes/blocks/image/style.min.css
+[2024-10-17 09:46:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 20
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dce684454-Owa5GO.tmp
+[2024-10-17 09:46:14] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/wp-includes/blocks/image/style.min.css?simply_static_page=66
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/wp-includes/blocks/image/style.min.css?simply_static_page=66
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:103] Filesize: 6358 bytes
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6710dce684454-Owa5GO.tmp to C:\Users\tomvanwoudenbe\Local Sites\teachbooks-test\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1729158269/wp-includes/blocks/image/style.min.css
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 09:46:14] [class-ss-page.php:119] Checking Content Identical:54a1fef5278908a5bbd901dea250139c6d992b6f===. Value: FALSE
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/wp-json/
+[2024-10-17 09:46:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 20
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://teachbooks-test.local/wp-json/
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/xmlrpc.php
+[2024-10-17 09:46:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 20
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://teachbooks-test.local/xmlrpc.php
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/wp-includes/js/dist/interactivity.min.js
+[2024-10-17 09:46:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 20
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dce69ea25-YFnHpq.tmp
+[2024-10-17 09:46:14] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/wp-includes/js/dist/interactivity.min.js?simply_static_page=69
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/wp-includes/js/dist/interactivity.min.js?simply_static_page=69
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:103] Filesize: 36686 bytes
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6710dce69ea25-YFnHpq.tmp to C:\Users\tomvanwoudenbe\Local Sites\teachbooks-test\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1729158269/wp-includes/js/dist/interactivity.min.js
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 09:46:14] [class-ss-page.php:119] Checking Content Identical:39f2fd1115fdb171ea318c2ca240c7fe53df79b4===. Value: FALSE
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-10-17 09:46:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 20
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dce6b1224-Ivy8dn.tmp
+[2024-10-17 09:46:14] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=70
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=70
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6710dce6b1224-Ivy8dn.tmp to C:\Users\tomvanwoudenbe\Local Sites\teachbooks-test\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1729158269/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 09:46:14] [class-ss-page.php:119] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-10-17 09:46:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 20
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dce6c1fba-6w2DBI.tmp
+[2024-10-17 09:46:14] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=71
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=71
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6710dce6c1fba-6w2DBI.tmp to C:\Users\tomvanwoudenbe\Local Sites\teachbooks-test\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1729158269/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 09:46:14] [class-ss-page.php:119] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-10-17 09:46:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 20
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dce6ce4af-uCFqPN.tmp
+[2024-10-17 09:46:14] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=72
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=72
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6710dce6ce4af-uCFqPN.tmp to C:\Users\tomvanwoudenbe\Local Sites\teachbooks-test\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1729158269/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 09:46:14] [class-ss-page.php:119] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-10-17 09:46:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 20
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dce6dd7bf-xrxWJD.tmp
+[2024-10-17 09:46:14] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=73
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=73
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-10-17 09:46:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6710dce6dd7bf-xrxWJD.tmp to C:\Users\tomvanwoudenbe\Local Sites\teachbooks-test\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1729158269/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 09:46:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 09:46:14] [class-ss-page.php:119] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
+[2024-10-17 09:46:14] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 20 pages/files
+[2024-10-17 09:46:14] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-17 09:46:15] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 09:46:15] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 09:46:15] [class-ss-fetch-urls-task.php:69] Total pages: 26; Pages remaining: 6
+[2024-10-17 09:46:15] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/sample-page/feed/
+[2024-10-17 09:46:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 26
+[2024-10-17 09:46:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:46:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dce7880b3-LjmSex.tmp
+[2024-10-17 09:46:15] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/sample-page/feed/?simply_static_page=74
+[2024-10-17 09:46:15] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/sample-page/feed/?simply_static_page=74
+[2024-10-17 09:46:25] [class-ss-url-fetcher.php:103] Filesize: 747 bytes
+[2024-10-17 09:46:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 09:46:25] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/feed/index.xml
+[2024-10-17 09:46:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6710dce7880b3-LjmSex.tmp to C:\Users\tomvanwoudenbe\Local Sites\teachbooks-test\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1729158269/sample-page/feed/index.xml
+[2024-10-17 09:46:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 09:46:25] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-10-17 09:46:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 09:46:25] [class-ss-page.php:119] Checking Content Identical:3fae491445a09605c4c90c3a7923a724b75865c5===. Value: FALSE
+[2024-10-17 09:46:25] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/wp-json/wp/v2/pages/2
+[2024-10-17 09:46:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 26
+[2024-10-17 09:46:25] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://teachbooks-test.local/wp-json/wp/v2/pages/2
+[2024-10-17 09:46:25] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-17 09:46:25] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/wp-json/oembed/1.0/embed
+[2024-10-17 09:46:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 26
+[2024-10-17 09:46:25] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://teachbooks-test.local/wp-json/oembed/1.0/embed
+[2024-10-17 09:46:25] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-17 09:46:25] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/author/admin/feed/
+[2024-10-17 09:46:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 26
+[2024-10-17 09:46:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:46:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dcf19a0c6-xZX67P.tmp
+[2024-10-17 09:46:25] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/author/admin/feed/?simply_static_page=77
+[2024-10-17 09:46:25] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/author/admin/feed/?simply_static_page=77
+[2024-10-17 09:46:55] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-10-17 09:46:55] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30001 milliseconds with 0 bytes received
+[2024-10-17 09:46:55] [class-ss-url-fetcher.php:107] object(WP_Error)#821 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30001 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-10-17 09:46:55] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/wp-json/wp/v2/users/1
+[2024-10-17 09:46:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 26
+[2024-10-17 09:46:55] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://teachbooks-test.local/wp-json/wp/v2/users/1
+[2024-10-17 09:46:55] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-17 09:46:55] [class-ss-fetch-urls-task.php:72] URL: http://teachbooks-test.local/hello-world/feed/
+[2024-10-17 09:46:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 26
+[2024-10-17 09:46:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 09:46:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6710dd0faa5c7-x1f8BW.tmp
+[2024-10-17 09:46:55] [class-ss-page-handler.php:38] URL Prepared:http://teachbooks-test.local/hello-world/feed/?simply_static_page=79
+[2024-10-17 09:46:55] [class-ss-url-fetcher.php:251] Fetching URL: http://teachbooks-test.local/hello-world/feed/?simply_static_page=79
+[2024-10-17 09:46:56] [class-ss-url-fetcher.php:103] Filesize: 1662 bytes
+[2024-10-17 09:46:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 09:46:56] [class-ss-url-fetcher.php:233] New filename for static page: /hello-world/feed/index.xml
+[2024-10-17 09:46:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6710dd0faa5c7-x1f8BW.tmp to C:\Users\tomvanwoudenbe\Local Sites\teachbooks-test\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1729158269/hello-world/feed/index.xml
+[2024-10-17 09:46:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 09:46:56] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-10-17 09:46:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 09:46:56] [class-ss-page.php:119] Checking Content Identical:0db3f1e6ff821b4e279836c9f39adab9edcecc5c===. Value: FALSE
+[2024-10-17 09:46:56] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 20 of 26 pages/files
+[2024-10-17 09:46:56] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-17 09:47:07] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 09:47:07] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 09:47:07] [class-ss-fetch-urls-task.php:69] Total pages: 26; Pages remaining: 0
+[2024-10-17 09:47:07] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 26 of 26 pages/files
+[2024-10-17 09:47:07] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-10-17 09:47:07] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-10-17 09:47:07] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-10-17 09:47:07] [class-ss-create-zip-archive.php:71] Fetching list of files to include in zip
+[2024-10-17 09:47:07] [class-ss-create-zip-archive.php:80] Creating zip archive
+[2024-10-17 09:47:07] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://teachbooks-test.local/wp-content/uploads/simply-static/temp-files/simply-static-1-1729158269.zip">Click here to download</a>
+[2024-10-17 09:47:07] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-10-17 09:47:07] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-10-17 09:47:07] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-10-17 09:47:07] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-10-17 09:47:07] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-10-17 09:47:07] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-10-17 09:47:07] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-10-17 09:47:07] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:02:38
